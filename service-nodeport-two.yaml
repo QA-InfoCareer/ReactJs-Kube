@@ -10,4 +10,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8081
-      nodePort: 30002  # NodePort for the second service
+      nodePort: 30004  # NodePort for the second service
