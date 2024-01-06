@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sts-loadbalancer-service
+  name: react-loadbalancer-service
 spec:
   type: LoadBalancer
   ports:
