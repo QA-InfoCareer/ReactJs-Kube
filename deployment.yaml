@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: sts-app
 spec:
-  replicas: 3  # Adjust as needed
+  replicas: 1  # Adjust as needed
   selector:
     matchLabels:
       app: sts-app
